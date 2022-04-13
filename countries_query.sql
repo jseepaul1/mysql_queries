@@ -54,3 +54,5 @@ SELECT countries.region, COUNT(countries.id)
 FROM countries
 GROUP BY countries.region
 ORDER BY COUNT(countries.id) DESC;
+
+SELECT * FROM languages WHERE languages.id = '1';
